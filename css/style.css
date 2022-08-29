@@ -1,0 +1,58 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+body {
+  font-family: poppins;
+}
+nav {
+  background-color: rgb(255, 166, 0);
+}
+.nav-link {
+  padding-left: 8px;
+}
+.nav-link:hover {
+  color: green;
+  background-color: white;
+}
+.navbar-brand {
+  color: green;
+  font-weight: 600;
+}
+.navbar-brand:hover {
+  color: green;
+}
+div.header {
+  margin-top: 50px;
+  font-size: 25px;
+  font-weight: bold;
+}
+#container {
+  padding: 20px;
+  width: 90%;
+  margin: 5px auto 30px auto;
+  background-color: rgb(32, 177, 121);
+  border-radius: 8px;
+}
+#Menu {
+    color: white;
+}
+@media (max-width: 575px) {
+  .form-control {
+    margin-right: 5px;
+  }
+  .btn {
+    text-align: center;
+  }
+  div.header {
+    margin-top: 30px;
+    font-size: 25px;
+    font-weight: bold;
+  }
+  div.header h1{
+    font-size: 25px;
+    font-weight:500
+  }
+}
